@@ -34,4 +34,6 @@ Instructions:
 
 I did this project to learn more about dApps (decentralized applications).
 
-The swap was done with the help of a tutorial from moralis.io themselves (found on youtube) but the tokens page and the CMC rankings page were done by myself with the help of API documentation from CMC's API. 
+The swap was done with the help of a tutorial from moralis.io (found on youtube).
+
+The tokens page and the CMC rankings page were done by myself with the help of API documentation from CMC's API. 
