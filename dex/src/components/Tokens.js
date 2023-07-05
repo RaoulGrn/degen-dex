@@ -1,10 +1,10 @@
 import React from 'react';
-import tokenList from './tokenList.json';
+import tokenList from '../tokenList.json';
 
 function Tokens() {
   return (
       <div>
-        <table className={"bg-dark border-1"}>
+        <table className={"tkns bg-dark border-1 m-lg-5"}>
           <thead>
           <tr className={"text-white border-1"}>
             <th>Ticker</th>
