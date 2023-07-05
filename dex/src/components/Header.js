@@ -1,6 +1,6 @@
 import React from 'react'
-import Logo from "../moralis-logo.svg";
-import Eth from "../eth.svg"
+import Logo from "./moralis-logo.svg";
+import Eth from "./eth.svg"
 import {Link} from "react-router-dom";
 function Header(props) {
     const {address, isConnected, connect} = props;
@@ -15,9 +15,12 @@ function Header(props) {
          <Link to="/tokens" className="link">
              <div className="headerItem">Tokens</div>
          </Link>
+         <Link to="/tokenRanks" className="link">
+             <div className="headerItem">Rankings</div>
+         </Link>
      </div>
        <div className="rightH">
-           <div className="headerItem">
+           <div className="headerItem text-warning">
                <img src={Eth} alt="eth" className="eth"/>
                Ethereum
            </div>

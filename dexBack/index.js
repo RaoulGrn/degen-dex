@@ -4,7 +4,7 @@ const app = express();
 const cors = require("cors");
 require("dotenv").config();
 const port = 3001;
-
+const axios = require('axios');
 app.use(cors());
 app.use(express.json());
 
@@ -26,6 +26,21 @@ app.get("/tokenPrice", async (req, res) => {
   console.log(responseOne.raw);
   console.log(responseTwo.raw);*/
   return res.status(200).json(usdPrices);
+});
+
+app.get("/tokenRankings", async (req, res) => {
+
+
+  let response = await axios.get('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest', {
+    headers: {
+      'X-CMC_PRO_API_KEY': process.env.X_CMC_PRO_API_KEY,
+    },
+  });
+
+
+
+
+  return res.status(200).json(response.data);
 });
 
 Moralis.start({

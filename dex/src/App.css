@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 header {
@@ -11,17 +12,16 @@ header {
   padding-right: 50px;
 }
 
-.logo{
+.logo {
   width: 40px;
   height: 40px;
   padding-right: 20px;
 }
 
-.eth{
+.eth {
   width: 20px;
   height: 20px;
   padding-right: 10px;
-
 }
 
 .leftH {
@@ -49,24 +49,24 @@ header {
 }
 
 .headerItem:hover {
-  background-color: rgb(155, 103, 33);
+  background-color: #4a4a4a;
   cursor: pointer;
 }
 
 .connectButton {
-  background-color: #9d3f1d;
+  background-color: #9b6a31;
   padding: 10px;
   padding-right: 20px;
   padding-left: 20px;
   border-radius: 100px;
-  color: #cc9e09;
+  color: #ffffff;
   font-weight: bold;
   transition: 0.3s;
 }
 
 .connectButton:hover {
   cursor: pointer;
-  color: #3b4874
+  background-color: #8e601f;
 }
 
 .mainWindow {
@@ -82,7 +82,7 @@ header {
 
 .tradeBox {
   width: 400px;
-  background-color: #a76237;
+  background: linear-gradient(135deg, #171717, #0f0f0f);
   border: 2px solid rgba(95, 78, 59, 0.62);
   min-height: 300px;
   border-radius: 15px;
@@ -94,7 +94,6 @@ header {
   padding-right: 30px;
 }
 
-
 .tradeBoxHeader {
   display: flex;
   justify-content: space-between;
@@ -103,12 +102,12 @@ header {
 }
 
 .cog {
-  color: #171717;
+  color: #ffffff;
   transition: 0.3s;
 }
 
 .cog:hover {
-  color: white;
+  color: #cccccc;
   rotate: 90deg;
   cursor: pointer;
 }
@@ -127,7 +126,7 @@ header {
   color: #000000;
   border: 3px solid #0c0d13;
   font-size: 12px;
-  transition: 0.3s
+  transition: 0.3s;
 }
 
 .dollarAmount {
@@ -135,11 +134,11 @@ header {
   top: 75px;
   left: 14px;
   font-size: 10px;
-  color: #5F6783;
+  color: #5f6783;
 }
 
 .switchButton:hover {
-  color: white;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -151,7 +150,7 @@ header {
   position: absolute;
   min-width: 50px;
   height: 30px;
-  background-color: #a9511c;
+  background-color: #9b6a31;
   top: 36px;
   right: 20px;
   border-radius: 100px;
@@ -168,7 +167,7 @@ header {
   position: absolute;
   min-width: 50px;
   height: 30px;
-  background-color: #a9511c;
+  background-color: #9b6a31;
   top: 135px;
   right: 20px;
   border-radius: 100px;
@@ -181,11 +180,11 @@ header {
   padding-right: 8px;
 }
 
-.assetOne:hover{
+.assetOne:hover {
   cursor: pointer;
 }
 
-.assetTwo:hover{
+.assetTwo:hover {
   cursor: pointer;
 }
 
@@ -198,12 +197,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #764730;
+  background-color: #9b6a31;
   width: calc(100%);
   height: 55px;
   font-size: 20px;
   border-radius: 12px;
-  color: #bc5614;
+  color: #ffffff;
   font-weight: bold;
   transition: 0.3s;
   margin-bottom: 30px;
@@ -211,19 +210,19 @@ header {
 }
 
 .swapButton[disabled] {
-  background-color: #66412c;
+  background-color: #9b6a31;
   opacity: 0.4;
-  color: rgba(113, 74, 48, 0.61);
+  color: rgba(255, 255, 255, 0.61);
 }
 
 .swapButton[disabled]:hover {
   cursor: not-allowed;
-  background-color: #874422;
+  background-color: #9b6a31;
 }
 
 .swapButton:hover {
   cursor: pointer;
-  background-color: #874422;
+  background-color: #8e601f;
 }
 
 .tokenLogo {
@@ -237,7 +236,7 @@ header {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-  gap: 10px
+  gap: 10px;
 }
 
 .tokenChoice {

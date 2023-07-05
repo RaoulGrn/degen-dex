@@ -5,6 +5,7 @@ import Tokens from "./components/Tokens";
 import {Routes, Route} from "react-router-dom";
 import {useConnect,useAccount} from "wagmi";
 import {MetaMaskConnector} from "wagmi/connectors/metaMask";
+import TokenTable from "./components/TokenTable";
 function App() {
   const {address, isConnected} = useAccount();
   const {connect} = useConnect({
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Swap isConnected={isConnected} address={address} />}/>
         <Route path="/tokens" element={<Tokens />}/>
+        <Route path="/tokenRanks" element={<TokenTable />}/>
       </Routes>
     </div>
   </div>
