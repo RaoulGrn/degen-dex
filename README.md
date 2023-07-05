@@ -26,9 +26,12 @@ Instructions:
 
 
 4. run front with npm run start and back with node index.js.
+   
+
+5. Make sure you connect with your Metamask wallet before trying to swap or the button will be disabled.
 
 
-5. Enjoy exchanging if you have the funds required for allowance and swap!
+6. Enjoy and thank you for your time!
 
 
 
