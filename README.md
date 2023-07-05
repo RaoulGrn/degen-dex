@@ -7,7 +7,7 @@ Technologies involved :
 - Wagmi
 - React
 - NodeJS
-- Moralis API and CoinMarketCap API
+- CoinMarketCap API
 
 Instructions:
 
