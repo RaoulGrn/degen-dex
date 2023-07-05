@@ -14,7 +14,7 @@ Instructions:
 
 1.Create an account and get your API key from moralis.io -> 
 
-* create .env file in dexBack folder with MORALIS_KEY field and enter your moralis API key.
+* Create .env file in dexBack folder with MORALIS_KEY field and enter your moralis API key.
   
 * Apply for API key from CoinMarketCap and enter it into .env file at X_CMC_PRO_API_KEY field.
 
