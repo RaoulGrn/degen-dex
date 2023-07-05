@@ -12,11 +12,11 @@ Technologies involved :
 Instructions:
 
 
-1.Create an account and get your API key from moralis.io -> 
+1.API KEYS - moralis.io and coinmarketcap.com -> 
 
 * Create .env file in dexBack folder with MORALIS_KEY field and enter your moralis API key.
   
-* Apply for API key from CoinMarketCap and enter it into .env file at X_CMC_PRO_API_KEY field.
+* Apply for API key from CoinMarketCap and create another field into .env file named X_CMC_PRO_API_KEY.
 
 
 2. Make sure you have a Metamask account.
