@@ -25,7 +25,7 @@ Instructions:
 3. npm install both in dex folder(frontend) and in dexBack(backend).
 
 
-4. run front with npm run start and back with node index.js.
+4. run front and backend folders with npm run start.
    
 
 5. Make sure you connect with your Metamask wallet before trying to swap or the button will be disabled.
