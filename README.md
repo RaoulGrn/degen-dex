@@ -33,7 +33,7 @@ Instructions:
 
 6. Enjoy and thank you for your time!
 
-
+###
 
 I did this project to learn more about dApps (decentralized applications).
 
@@ -41,7 +41,7 @@ The swap was done with the help of a tutorial from moralis.io (found on youtube)
 
 The tokens page and the CMC rankings page were done by myself with the help of API documentation from CMC's API. 
 
-## DEMO PHOTOS 
+## PHOTOS 
 
 ![dex1](https://github.com/RaoulGrn/degen-dex/assets/108396853/6cf9d402-3d21-4ac3-bcb0-8da3554637b2)
 ![dex2](https://github.com/RaoulGrn/degen-dex/assets/108396853/d920a876-4af4-47e9-b6f7-0ff97fb3a11c)
