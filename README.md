@@ -9,8 +9,7 @@ Technologies involved :
 - NodeJS
 - CoinMarketCap API
 
-Instructions:
-
+### Instructions
 
 1.API KEYS - moralis.io and coinmarketcap.com -> 
 
@@ -33,6 +32,7 @@ Instructions:
 
 6. Enjoy and thank you for your time!
 
+### Why and how
 
 - I did this project to learn more about dApps (decentralized applications).
 
